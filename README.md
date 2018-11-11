@@ -5,7 +5,7 @@ PC内臓時計の時刻をJJY信号を経由して電波時計に設定するた
 の流れです。
 
 # ソースコード
-SendModuleSrc/DenpaDokei.c が、電波時計用信号発生器内部のプログラム(C言語)
+SendModuleSrc/DenpaDokei.c が、電波時計用信号発生器内部のプログラム(C言語)  
 PCSrc/working.php が、PCからUSB経由で電波時計用信号発生器に時刻を送信するプログラム(PHP)です。
 
 # 電波時計用信号発生器の外観
